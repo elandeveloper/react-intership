@@ -34,6 +34,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--main-background-color);
+    margin: 0;
 }
 
 ul {
