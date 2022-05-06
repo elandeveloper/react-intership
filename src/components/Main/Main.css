@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 /*цвет текста 
 основной #757575
 вторичный #212121
@@ -159,10 +162,16 @@ img {
     fill: var(--accent-color);
 }
 
-.address-link>svg {
+.address-link svg {
     margin-right: 10px;
+    fill: var(--primary-text-color);
     }
 
+.address-link svg:hover {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--accent-color);
+}
 
 .address-list {
     display: flex;

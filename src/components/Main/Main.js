@@ -6,13 +6,22 @@ import team1 from "../images/team1.jpg";
 import team2 from "../images/team2.jpg";
 import team3 from "../images/team3.jpg";
 import team4 from "../images/team4.jpg";
-import { ReactComponent as MailSvg } from "../images/mail.svg";
+import { ReactComponent as Envelope } from "../images/envelope.svg";
 import { ReactComponent as PhoneSvg } from "../images/smartphone.svg";
 import { ReactComponent as Antenna } from "../images/antenna.svg";
 import { ReactComponent as Clock } from "../images/clock.svg";
 import { ReactComponent as Diagram } from "../images/diagram.svg";
 import { ReactComponent as Astronaut } from "../images/astronaut.svg";
 import { ReactComponent as Instagram } from "../images/instagram.svg";
+import { ReactComponent as Twitter } from "../images/twitter.svg";
+import { ReactComponent as Facebook } from "../images/facebook.svg";
+import { ReactComponent as Linkedin } from "../images/linkedin.svg";
+import { ReactComponent as Logo_1 } from "../images/logo_1.svg";
+import { ReactComponent as Logo_2 } from "../images/logo_2.svg";
+import { ReactComponent as Logo_3 } from "../images/logo_3.svg";
+import { ReactComponent as Logo_4 } from "../images/logo_4.svg";
+import { ReactComponent as Logo_5 } from "../images/logo_5.svg";
+import { ReactComponent as Logo_6 } from "../images/logo_6.svg";
 
 const Main = () => {
   return (
@@ -48,7 +57,7 @@ const Main = () => {
             <ul className="address-list">
               <li className="address-item">
                 <a href="mailto:info@devstudio.com" className="address-link">
-                  <MailSvg />
+                  <Envelope />
                   info@devstudio.com
                 </a>
               </li>
@@ -67,7 +76,8 @@ const Main = () => {
         <section className="hero">
           <div className="container">
             <h1 className="hero-title">
-              Эффективные решения для вашего бизнеса
+              Эффективные решения <br />
+              для вашего бизнеса
             </h1>
             <button className="hero-btn" data-modal-open>
               Заказать услугу
@@ -173,25 +183,19 @@ const Main = () => {
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
+                      <Twitter />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg>
+                      <Facebook />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg>
+                      <Linkedin />
                     </a>
                   </li>
                 </ul>
@@ -204,33 +208,25 @@ const Main = () => {
                 <ul className="network-list">
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg>
+                      <Instagram />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
+                      <Twitter />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg>
+                      <Facebook />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg>
+                      <Linkedin />
                     </a>
                   </li>
                 </ul>
@@ -243,33 +239,25 @@ const Main = () => {
                 <ul className="network-list">
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg>
+                      <Instagram />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
+                      <Twitter />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg>
+                      <Facebook />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg>
+                      <Linkedin />
                     </a>
                   </li>
                 </ul>
@@ -282,33 +270,25 @@ const Main = () => {
                 <ul className="network-list">
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg>
+                      <Instagram />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
+                      <Twitter />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg>
+                      <Facebook />
                     </a>
                   </li>
 
                   <li className="network-item">
                     <a href="" className="network-link">
-                      <svg width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg>
+                      <Linkedin />
                     </a>
                   </li>
                 </ul>
@@ -324,49 +304,37 @@ const Main = () => {
             <ul className="clients-list">
               <li className="clients-item">
                 <a href="" className="clients-link">
-                  <svg width="45" height="50">
-                    <use href="./images/symbol-defs.svg#icon-logo_1"></use>
-                  </svg>
+                  <Logo_1 />
                 </a>
               </li>
 
               <li className="clients-item">
                 <a href="" className="clients-link">
-                  <svg width="40" height="52">
-                    <use href="./images/symbol-defs.svg#icon-logo_2"></use>
-                  </svg>
+                  <Logo_2 />
                 </a>
               </li>
 
               <li className="clients-item">
                 <a href="" className="clients-link">
-                  <svg width="41" height="42">
-                    <use href="./images/symbol-defs.svg#icon-logo_3"></use>
-                  </svg>
+                  <Logo_3 />
                 </a>
               </li>
 
               <li className="clients-item">
                 <a href="" className="clients-link">
-                  <svg width="80" height="42">
-                    <use href="./images/symbol-defs.svg#icon-logo_4"></use>
-                  </svg>
+                  <Logo_4 />
                 </a>
               </li>
 
               <li className="clients-item">
                 <a href="" className="clients-link">
-                  <svg width="59" height="47">
-                    <use href="./images/symbol-defs.svg#icon-logo_5"></use>
-                  </svg>
+                  <Logo_5 />
                 </a>
               </li>
 
               <li className="clients-item">
                 <a href="" className="clients-link">
-                  <svg width="88" height="45">
-                    <use href="./images/symbol-defs.svg#icon-logo_6"></use>
-                  </svg>
+                  <Logo_6 />
                 </a>
               </li>
             </ul>
@@ -405,33 +373,25 @@ const Main = () => {
             <ul className="social-link-list">
               <li className="social-link-item">
                 <a href="" className="social-link-ref">
-                  <svg width="20" height="20">
-                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                  </svg>
+                  <Instagram />
                 </a>
               </li>
 
               <li className="social-link-item">
                 <a href="" className="social-link-ref">
-                  <svg width="20" height="20">
-                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                  </svg>
+                  <Twitter />
                 </a>
               </li>
 
               <li className="social-link-item">
                 <a href="" className="social-link-ref">
-                  <svg width="20" height="20">
-                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                  </svg>
+                  <Facebook />
                 </a>
               </li>
 
               <li className="social-link-item">
                 <a href="" className="social-link-ref">
-                  <svg width="20" height="20">
-                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                  </svg>
+                  <Linkedin />
                 </a>
               </li>
             </ul>
