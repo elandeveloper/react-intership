@@ -22,6 +22,7 @@ import { ReactComponent as Logo_3 } from "../images/logo_3.svg";
 import { ReactComponent as Logo_4 } from "../images/logo_4.svg";
 import { ReactComponent as Logo_5 } from "../images/logo_5.svg";
 import { ReactComponent as Logo_6 } from "../images/logo_6.svg";
+import { ReactComponent as Send } from "../images/send.svg";
 
 const Main = () => {
   return (
@@ -410,9 +411,7 @@ const Main = () => {
                 </label>
                 <button type="submit" className="subscribe-btn">
                   Подписаться
-                  <svg className="send-icon" width="24" height="24">
-                    <use href="./images/symbol-defs.svg#icon-send"></use>
-                  </svg>
+                  <Send className="send-icon" />
                 </button>
               </div>
             </form>
@@ -420,7 +419,7 @@ const Main = () => {
         </div>
       </footer>
 
-      <div className="backdrop is-hidden" data-modal>
+      {/* <div className="backdrop is-hidden" data-modal>
         <div className="modal">
           <button className="close-button" data-modal-close>
             <svg width="18" height="18">
@@ -513,7 +512,7 @@ const Main = () => {
         </div>
       </div>
 
-      <script src="./js/modal.js"></script>
+      <script src="./js/modal.js"></script> */}
     </body>
   );
 };
