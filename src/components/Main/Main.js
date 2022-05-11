@@ -26,7 +26,7 @@ import { ReactComponent as Send } from "../images/send.svg";
 
 const Main = () => {
   return (
-    <body>
+    <div>
       <header className="header">
         <div className="container general-nav">
           <a href="./index.html" className="logo">
@@ -513,7 +513,7 @@ const Main = () => {
       </div>
 
       <script src="./js/modal.js"></script> */}
-    </body>
+    </div>
   );
 };
 
